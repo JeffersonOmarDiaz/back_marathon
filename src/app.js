@@ -5,6 +5,7 @@ import morgan from "morgan"
  import enterpriseRoutes from "./routers/enterprise.routes";
 
  import employeesRoutes from "./routers/employee.routes";
+ import departmentRoutes from "./routers/department.routes";
 
  const app=express();
 
@@ -21,4 +22,5 @@ app.use(express.json()); // para que reconosca ingreso de archivos tipo json
 
 app.use("/api/enterprises", enterpriseRoutes);
 app.use("/api/employees", employeesRoutes);
+app.use("/api/department", departmentRoutes);
 export default app;  
