@@ -1,5 +1,6 @@
 import express from "express"
 import morgan from "morgan"
+import cors from "cors"
 
  //routes
  import enterpriseRoutes from "./routers/enterprise.routes";
@@ -16,7 +17,7 @@ app.set('port', process.env.PORT || 3000);
 //middlewares => funcion entre una peticion y una respuesta
 app.use(morgan("dev"));
 app.use(express.json()); // para que reconosca ingreso de archivos tipo json
-
+app.use(cors())
 
 //routes
 
