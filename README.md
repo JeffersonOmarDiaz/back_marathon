@@ -3,6 +3,7 @@ Este backend esta realizado con node js
 
 ### Guia para poner en producción (HEROKU)
 - Clonar el repositorio e instalar las dependencias 
+
 | npm install |
 | ----------- |
 
@@ -21,4 +22,7 @@ Este backend esta realizado con node js
   npm install --production 
 - Instalar las dependencias necesarias tomado como referencia el alchivo [package.json](https://github.com/JeffersonOmarDiaz/back_marathon/blob/main/package.json)  
 - ejecutar el comando 
-  node app.js
+
+| node app.js |
+| ----------- |
+  
